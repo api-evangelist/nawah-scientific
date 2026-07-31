@@ -1,8 +1,14 @@
 aid: nawah-scientific
 name: Nawah Scientific
-description: Nawah Scientific is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Nawah Scientific is MENA and Africa''s first Cloud Lab, providing analytical
+  testing and R&D services to the region''s life science, food, agricultural, and
+  pharmaceutical sectors. Through its online platform researchers and companies can
+  request laboratory analyses, submit and track samples, and access remote scientific
+  instrument time and data services. Headquartered in Egypt with expansion across
+  Saudi Arabia and Rwanda, Nawah operates as a research engine backed by 500 Global.
+  This API Evangelist profile currently tracks the company''s public web presence;
+  no public developer API, OpenAPI definition, or developer documentation surface
+  has been identified at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/nawah-scientific/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +16,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://nawah-scientific.com/assets/images/logo.svg
 tags:
 - Company
+- Laboratory
+- Scientific Research
+- Life Sciences
+- Pharmaceutical
+- Analytical Testing
+- Research and Development
+- Egypt
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nawah-scientific-domain-security.yml
 - type: Website
   url: https://nawah-scientific.com
+- type: Blog
+  url: https://nawah-scientific.com/blog/articles
+- type: PrivacyPolicy
+  url: https://nawah-scientific.com/system-documents/privacy-policy
+- type: TermsOfService
+  url: https://nawah-scientific.com/system-documents/terms-and-conditions
+- type: Login
+  url: https://admin.nawahscientific.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nawah-scientific/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
